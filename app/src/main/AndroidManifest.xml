@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="abhayjain.lyricsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_web"
+        android:label="Lyrics App"
+        android:roundIcon="@mipmap/ic_launcher_web"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Navigation_Activity"
+            android:label="Lyrics App"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bollywood_Songs"
+            android:label="Top Bollywood Songs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Punjabi_Songs"
+            android:label="Top Punjabi Songs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Hollywood_Songs"
+            android:label="Top Hollywood Songs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Main2Activity" -->
+        <!-- android:label="Sign up"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value=".MainActivity" /> -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Main3Activity" -->
+        <!-- android:label="Forgot Id"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value=".MainActivity" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".holly_1"
+            android:label="Dusk Till Dawn">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_2"
+            android:label="Galway Girl">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_3"
+            android:label="I&apos;m the One">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_4"
+            android:label="First Time">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_5"
+            android:label="Thriller">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_6"
+            android:label="Not Letting Go">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_7"
+            android:label="Perfect">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_8"
+            android:label="Somebody&apos;s Me">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_9"
+            android:label="Pillowtalk">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".holly_10"
+            android:label="Cheap Thrills">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Hollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_1"
+            android:label="Tera Yaar Hoon Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_2"
+            android:label="Dil Diyan Gallan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_3"
+            android:label="Ghar Se Nikalte Hi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_4"
+            android:label="Koi Vi Nahi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_5"
+            android:label="Channa Mereya">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_6"
+            android:label="Dil Chori">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_7"
+            android:label="O Saathi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_8"
+            android:label="Tum Hi Ho">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_9"
+            android:label="Pehla Nasha">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".bolly_10"
+            android:label="Dekha Hazaro Dafaa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bollywood_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_1"
+            android:label="Daru Badnaam">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_2"
+            android:label="Naah">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_3"
+            android:label="Gaal Ni Kadni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_4"
+            android:label="Hostel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_5"
+            android:label="Jaani Teri Naa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_6"
+            android:label="Mann Bharaya">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_7"
+            android:label="Lahore">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_8"
+            android:label="Nazar Lag Jayegi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_9"
+            android:label="Qismat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".punjab_10"
+            android:label="Badnaam">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Punjabi_Songs" />
+        </activity>
+        <activity
+            android:name=".Account"
+            android:label="My Account">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Chat_Us"
+            android:label="Contact us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Rate_Us"
+            android:label="Rate us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Subcription" -->
+        <!-- android:label="Subscription"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value=".Navigation_Activity" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".search"
+            android:label="Search">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
